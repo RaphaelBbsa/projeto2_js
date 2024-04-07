@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #bbb9b9 ;
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    height: 36px;
+    margin-right: 16px;
+}
+
+header h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;  /*isso quer dizer que o nosso conteudo fique centralizado mesmo que o monitor seja aquele ultra largo. ele faz com que o nosso container ocupe 100% que é 960px*/
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+form input {
+    font-size: 16px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #000000;
+    padding: 8px;
+}
+
+form button {
+    background-color: #009432;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer; /*faz com que apareça a mãozinha na hora de apertar o submit */
+    
+
+}
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid #000000;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+tbody td, tfoot td {
+    text-align: center;
+    font-size: 16px;
+    padding: 16px 0; /*na parte superior 8px, nas laterais 0*/
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+ table td img{
+    height: 30px;
+    
+ }
+
+ .resultado {
+    padding: 8px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 3px;
+ }
+
+ .aprovado {
+    background-color: #009432;
+ }
+ 
+ .reprovado {
+    background-color: red;
+ }
